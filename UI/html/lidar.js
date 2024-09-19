@@ -72,7 +72,7 @@ $(document).keyup(function(event) {
 $(document).ready(function () {
 // Dynamically load script once doc is ready.
 	var googleMapsApiScript = document.createElement('script');
-	googleMapsApiScript.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDF6OI8FdmtZmgrTsh1yTa__UlwA52BGEQ&callback=initMap';
+	googleMapsApiScript.src = 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDF6OI8FdmtZmgrTsh1yTa__UlwA52BGEQ&loading=async&callback=initMap';
 	googleMapsApiScript.async = true;
 	document.head.appendChild(googleMapsApiScript);
 
